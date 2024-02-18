@@ -31,7 +31,6 @@ pg_SLEEP(20)#
 or pg_SLEEP(20)
 or pg_SLEEP(20)--
 or pg_SLEEP(20)#
-'\"
 AnD SLEEP(20)
 AnD SLEEP(20)--
 AnD SLEEP(20)#
